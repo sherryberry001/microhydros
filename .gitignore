@@ -1,0 +1,23 @@
+# Byggartefakter
+firmware/.pio/
+*.o
+*.a
+*.elf
+*.bin
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Lokal data. Databasen byggs upp av gatewayen och hor inte hemma i repot,
+# men bevisfilerna under docs/evidence gor det: de ar testresultat.
+gateway/*.db
+gateway/*.db-wal
+gateway/*.db-shm
+
+# Riktiga hemligheter far aldrig in. config.h i repot innehaller bara
+# platshallare, se kommentaren i filen. En lokal override ignoreras.
+firmware/src/config.local.h
+
+.DS_Store

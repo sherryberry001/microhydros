@@ -1,0 +1,9 @@
+{
+  "name": "mh_core",
+  "version": "1.0.0",
+  "description": "MicroHydros applikationskarna. Ren C++17 utan hardvaruberoenden, sa att samma logik kan koras pa ESP32, i simulering och i enhetstester.",
+  "keywords": ["iot", "hydroponics", "sensors"],
+  "build": {
+    "flags": ["-I include"]
+  }
+}
