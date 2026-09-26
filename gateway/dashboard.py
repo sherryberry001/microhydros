@@ -226,10 +226,10 @@ def render(db, device=None):
             f'{badge}{chart}</div>')
 
     t = trend(db, device)
-    tr_html = '<p class="muted">ingen ram annu</p>'
+    tr_html = '<p class="muted">ingen ram ännu</p>'
     if t:
         if t["limit_exceeded"]:
-            forecast = '<span class="bad">gransen ar redan passerad</span>'
+            forecast = '<span class="bad">gränsen är redan passerad</span>'
         elif t["minutes_to_limit"] is None:
             forecast = "gränsen nås inte"
         else:

@@ -13,7 +13,7 @@ och går att reproducera med kommandona i [README](../README.md).
 | Resultat | **82 godkända, 0 underkända** |
 | Körtid för hela sviten | **under 6 sekunder** |
 | Scenariokörningar genom hela kedjan | 4, à 6 simulerade timmar |
-| Mätvärden lagrade under scenariokörningarna | 7 820 |
+| Mätvärden lagrade under scenariokörningarna | 7 862 |
 | Fel som hittades och åtgärdades under projektet | 3 |
 
 Testerna körs med:

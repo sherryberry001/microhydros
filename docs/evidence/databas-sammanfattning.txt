@@ -1,21 +1,17 @@
-=== RAMAR PER ENHET ===
-microhydros-sim-faults        360 ramar, seq 1..360
-microhydros-sim-heatwave      353 ramar, seq 1..353
-microhydros-sim-normal        360 ramar, seq 1..360
-microhydros-sim-outage        232 ramar, seq 1..360
+RAMAR PER ENHET
+  microhydros-sim-faults        360 lagrade av 360 byggda
+  microhydros-sim-heatwave      360 lagrade av 360 byggda
+  microhydros-sim-normal        360 lagrade av 360 byggda
+  microhydros-sim-outage        232 lagrade av 360 byggda
 
-=== AVVIKELSER PER ENHET OCH ORSAK ===
-microhydros-sim-faults       air_in   suspect  stuck_value            6
-microhydros-sim-faults       dew_in   suspect  derived_from_suspect   6
-microhydros-sim-faults       vpd_in   suspect  derived_from_suspect   6
-microhydros-sim-faults       air_out  bad      no_response            5
-microhydros-sim-faults       rh_in    bad      checksum_failed        5
-microhydros-sim-faults       water    suspect  rate_of_change_exceeded 5
+AVVIKELSER
+  microhydros-sim-faults       air_in   suspect  stuck_value            6
+  microhydros-sim-faults       dew_in   suspect  derived_from_suspect   6
+  microhydros-sim-faults       vpd_in   suspect  derived_from_suspect   6
+  microhydros-sim-faults       air_out  bad      no_response            5
+  microhydros-sim-faults       rh_in    bad      checksum_failed        5
+  microhydros-sim-faults       water    suspect  rate_of_change_exceeded 5
 
-=== ANDEL UNDERKANDA I FELFRI DRIFT (sim-normal) ===
-  0 av 2160 matvarden = 0.00 procent
-
-=== HAL I LOPNUMMERSERIEN ===
-  microhydros-sim-outage: 128 saknas mellan 144 och 273
-
-matvarden totalt: 7820
+FELFRI DRIFT: 0 avvikelser av 2160 matvarden = 0.00 %
+HAL: microhydros-sim-outage: 128 saknas mellan 144 och 273
+MATVARDEN TOTALT: 7862
