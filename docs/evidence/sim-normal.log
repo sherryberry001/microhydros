@@ -1,0 +1,9 @@
+[sim] scenario=normal, simulerar 21600 sekunder, fro=0xC0FFEE
+
+[sim] klart
+  avlasningar : 8640 (good 8640, suspect 0, bad 0)
+  ramar byggda: 360
+  ramar sanda : 360
+  ramar i kö  : 0
+  ramar tappade: 0
+  bussomstarter: 0

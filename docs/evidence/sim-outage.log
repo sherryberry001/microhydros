@@ -1,0 +1,12 @@
+[sim] scenario=outage, simulerar 21600 sekunder, fro=0xC0FFEE
+[sim] t=8640 natet forsvinner
+[sim] t=17280 natet ar tillbaka, kön ska tommas
+[fw] transport ateruppkopplad
+
+[sim] klart
+  avlasningar : 8640 (good 8640, suspect 0, bad 0)
+  ramar byggda: 360
+  ramar sanda : 232
+  ramar i kö  : 0
+  ramar tappade: 128
+  bussomstarter: 0

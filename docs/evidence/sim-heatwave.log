@@ -1,0 +1,11 @@
+[sim] scenario=heatwave, simulerar 21600 sekunder, fro=0xC0FFEE
+[sim] morkerperiod, skapet far svalna
+[sim] t=8640 lampan tander men kylningen ar ur funktion
+
+[sim] klart
+  avlasningar : 8640 (good 8640, suspect 0, bad 0)
+  ramar byggda: 360
+  ramar sanda : 360
+  ramar i kö  : 0
+  ramar tappade: 0
+  bussomstarter: 0

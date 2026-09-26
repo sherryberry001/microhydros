@@ -1,0 +1,29 @@
+[sim] scenario=faults, simulerar 21600 sekunder, fro=0xC0FFEE
+[sim] t=4320 vattensonden tappar kontakt, rapporterar 85 C
+[sim] t=4620 vattensonden ater ansluten
+[sim] t=8640 fuktkanalen ger CRC-fel
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[sim] t=8940 fuktkanalen frisk igen
+[sim] t=12960 inneluften fastnar pa samma varde
+[sim] t=13560 inneluften frisk igen
+[sim] t=17280 utegivaren slutar svara
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[fw] for manga bussfel i rad, initierar om sensorerna
+[sim] t=17580 utegivaren svarar igen
+
+[sim] klart
+  avlasningar : 8640 (good 8518, suspect 62, bad 60)
+  ramar byggda: 360
+  ramar sanda : 360
+  ramar i kö  : 0
+  ramar tappade: 0
+  bussomstarter: 12
