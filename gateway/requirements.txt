@@ -1,0 +1,13 @@
+# Ett enda beroende utover standardbiblioteket.
+#
+# Instrumentpanelen anvander http.server och sqlite3 ur standardbiblioteket
+# istallet for Flask, och ritar sina kurvor som handgjord SVG istallet for att
+# dra in ett diagrambibliotek. Skalet ar att varje beroende ar nagot som ska
+# underhallas och sakerhetsuppdateras, och en prototyp som ska lamnas over till
+# nagon annan ar lattare att ta emot ju farre sadana den har.
+#
+# pyserial behovs bara om bryggan lases mot en fysisk seriell port. Den ar
+# kommenterad sa att containrarna, som alltid far sin data over MQTT, slipper den.
+
+paho-mqtt==2.1.0
+# pyserial==3.5
