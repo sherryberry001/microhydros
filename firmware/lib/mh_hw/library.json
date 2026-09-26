@@ -1,0 +1,13 @@
+{
+  "name": "mh_hw",
+  "version": "1.0.0",
+  "description": "Drivrutiner och plattformsglim for ESP32: SHT4x over I2C, DS18B20 over 1-Wire, MQTT over WiFi, I2C-bussaterstallning. Hela innehallet ar inbaddat i #ifdef ARDUINO sa att native-byggena aldrig ser det.",
+  "dependencies": {
+    "mh_core": "*",
+    "paulstoffregen/OneWire": "^2.3.8",
+    "knolleary/PubSubClient": "^2.8"
+  },
+  "build": {
+    "flags": ["-I include"]
+  }
+}
