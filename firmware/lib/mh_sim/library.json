@@ -1,0 +1,11 @@
+{
+  "name": "mh_sim",
+  "version": "1.0.0",
+  "description": "Termisk modell av odlingsskapet och simulerade givare med felinjektion. Anvands av enhetstester och av simuleringsnoden, aldrig i firmware for malhardvaran.",
+  "dependencies": {
+    "mh_core": "*"
+  },
+  "build": {
+    "flags": ["-I include"]
+  }
+}
