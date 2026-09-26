@@ -290,6 +290,13 @@ att någon märkt det.
 Vid ett avbrott kortare än sexton minuter tappas ingenting alls, vilket är
 verifierat i I-10.
 
+### Bevis från panelen
+
+Felscenariot, där vattensondens hopp till 85 °C syns som en tydlig spik i kurvan
+och varje underkänt mätvärde har sin orsakskod i tabellen:
+
+![Instrumentpanelen under felscenariot](evidence/dashboard.png)
+
 ### E2E-4: Skenande uppvärmning
 
 Klimatet står stilla i mörkerperioden. Sedan tänder lampan samtidigt som
@@ -310,6 +317,12 @@ GRANS OVERSKRIDEN: air_in ligger över 30.0 C just nu
 | Skattad jämvikt | 32,2 till 34,4 °C |
 | Verklig jämvikt | 33,5 °C |
 | Falsklarm i de tre andra scenarierna | **0** |
+
+Panelen under samma scenario. Lufttemperaturen inne stiger brant mot sin nya
+jämvikt, vattnet följer efter med sin långa tidskonstant, och fältet Förvarning
+visar att gränsen passerats:
+
+![Instrumentpanelen under uppvärmningsscenariot](evidence/dashboard-heatwave.png)
 
 ---
 
