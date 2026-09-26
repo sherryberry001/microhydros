@@ -104,7 +104,7 @@ void test_sensorbrus_utloser_inte_derivatakontrollen(void) {
     // Regressionstest. I den forsta integrationskorningen underkandes 3.6 procent
     // av alla vattenmatningar i helt felfri drift, eftersom DS18B20:ns eget brus
     // och kvantisering rackte for att sla i derivatagransen vid tio sekunders
-    // intervall. Se docs/testrapport.md test I-15.
+    // intervall. Se docs/testrapport.md, fynd F-3.
     //
     // Har simuleras en stillastaende naringslosning med realistiskt brus:
     // standardavvikelse 0.05 C ovanpa kvantiseringssteg om 0.0625 C. Inte en enda

@@ -40,7 +40,7 @@ namespace mh {
 /// forlopp det ska beskriva. Forsta versionen hade femton minuter, och det visade
 /// sig vara for langt: nar nagot gick sonder innehöll fonstret fortfarande mest
 /// data fran innan felet, modellen gick inte att identifiera, och forvarningen
-/// krympte till en minut. Se docs/testrapport.md test I-14.
+/// krympte till en minut. Se docs/testrapport.md, fynd F-2.
 ///
 /// Att korta fonstret kostar precision i lutningen, men marginalen ar god. Med
 /// SHT45:ns brus pa 0.04 C och 36 punkter over sex minuter blir medelfelet i

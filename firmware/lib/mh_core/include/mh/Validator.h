@@ -52,7 +52,7 @@ struct ChannelLimits {
     /// matskal, vilket omraknat blir 0.42 C per minut. Med en fysikalisk grans pa
     /// 1.0 C per minut rackte det med ett par standardavvikelser for att slå i
     /// taket, och i den forsta integrationskorningen underkandes 3.6 procent av
-    /// alla vattenmatningar i helt felfri drift. Se docs/testrapport.md test I-15.
+    /// alla vattenmatningar i helt felfri drift. Se docs/testrapport.md, fynd F-3.
     ///
     /// Tillatet steg mellan tva avlasningar ar darfor
     ///

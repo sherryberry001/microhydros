@@ -53,7 +53,7 @@ struct Trend {
     /// temperaturen att na en skadlig niva, och i sa fall nar?
     ///
     /// Bakgrunden ar tva verkliga fel som integrationskorningen avslojade, bada
-    /// beskrivna i docs/testrapport.md test I-13 och I-14.
+    /// beskrivna i docs/testrapport.md, fynd F-2.
     ///
     /// Forsta forsoket var rak linjar extrapolering. Den larmade varje gang
     /// odlingslampan tande, eftersom en rat linje genom borjan av en exponentiell
