@@ -6,6 +6,10 @@ och skickar resultatet vidare till ett externt system som lagrar historiken.
 
 Projekt 1, IoT- och embeddedutvecklare, 31 augusti till 25 september 2026.
 
+> **Examinator:** [INLAMNING.md](INLAMNING.md) är ingången till inlämningen.
+> Där ligger samtliga leverabler samlade med direktlänkar, plus kommandon
+> för att verifiera prototypen utan hårdvara.
+
 ---
 
 ## Vad systemet gör
